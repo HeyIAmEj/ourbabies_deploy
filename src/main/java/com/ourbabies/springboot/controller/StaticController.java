@@ -13,6 +13,12 @@ public class StaticController {
 	
 	
 	   //MÉTODO GET DA HOME.
+
+		@GetMapping("/")
+		public String indexx(HttpSession session) {
+			return "home";
+		}
+
 		@GetMapping("/home")
 		public String index(HttpSession session) {
 			return "home";
