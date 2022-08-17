@@ -21,7 +21,7 @@ public class StaticController {
 
 		@GetMapping("/home")
 		public String index(HttpSession session) {
-			return "homet";
+			return "home";
 		}
 
 		
@@ -30,6 +30,10 @@ public class StaticController {
 		public String somos() {
 			return "somos";
 		}
+
+
+	   //MÉTODO GET DE PÁGINA DE ERRO.
+
 
 
 		//MÉTODO GET DA PÁGINA RECUPERAÇÃO DE SENHA.
