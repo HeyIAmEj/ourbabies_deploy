@@ -69,7 +69,7 @@ public class CadastroControllerr {
 			// Verificação das senhas de cadastro
 
 			usuarioService.save(usuario);
-			modelAndView = new ModelAndView("/login");
+			modelAndView = new ModelAndView("login");
 			return modelAndView;
 		}
 
