@@ -31,8 +31,6 @@ public class Usuario {
 	@CPF
 	private String cpf;
 
-	@NotEmpty(message = "NIS deve ser preenchido")
-	@NotNull(message = "NIS deve ser preenchido")
 	private String nis_cad;
 
 
